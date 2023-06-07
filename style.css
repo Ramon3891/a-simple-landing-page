@@ -3,7 +3,7 @@ html {
 }
 
 body {
-
+    margin: 0;
 }
 
 
@@ -22,14 +22,10 @@ a {
 
 .header {
     background-color:#1f2937;
-    margin-left:-10px;
-    margin-top:-10px;
-    padding: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 10px 20px 10px 0;
 }
 
 .logo > img {
@@ -57,10 +53,9 @@ a {
 .top {
     background-color:#1f2937;
     width:100%;
-    margin-left:-10px;
-    padding: 10px 10px 50px 10px;
     display: flex;
     justify-content: space-between;
+    padding: 50px 0;
 }
 
 .message {
@@ -121,11 +116,22 @@ a {
 }
 
 .bottom {
-
+    background-color: #e5e7eb;
+    padding:50px 100px;
 }
 
 .copyPhrase {
+    font-size: 36px;
+    font-style: italic;
+    font-family: Quicksand;
+}
 
+.author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    width: 100%;
 }
 
 .callToAction {
