@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-
+    color:white;
 }
 
 h2 {
@@ -20,15 +20,15 @@ a {
 }
 
 .header {
-    background-color:#1f2973;
-    position: absolute;
-    left:0;
-    top:0;
+    background-color:#1f2937;
+    margin-left:-10px;
+    margin-top:-10px;
+    padding: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 10px 0;
+    padding: 10px 20px 10px 0;
 }
 
 .logo > img {
@@ -49,28 +49,37 @@ a {
     margin-right:70px;
 }
 
-.menu > li {
-    
-}
-
 .menu > ul {
     list-style-type: none;
 }
 
 .top {
-
+    background-color:#1f2937;
+    width:100%;
+    margin-left:-10px;
+    padding: 10px 10px 50px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .message {
-
+    margin-left: 100px;
 }
 
 .h1message {
-
+    color:white;
 }
 
 .signup {
-
+    color:white;
+    background-color: #3882f6;
+    height:50px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;;
 }
 
 .imgTop {
@@ -78,7 +87,10 @@ a {
 }
 
 .firstImg {
-
+    height:200px;
+    margin-left: auto;
+    border:1px solid #ccc;
+    margin-right: 100px;
 }
 
 .central {
