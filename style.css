@@ -6,12 +6,13 @@ body {
 
 }
 
+
 h1 {
     color:white;
 }
 
 h2 {
-
+    margin:50px 0;
 }
 
 a {
@@ -79,7 +80,8 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-top: 30px;;
+    margin-top: 30px;
+    font-weight: bold;
 }
 
 .imgTop {
@@ -94,19 +96,28 @@ a {
 }
 
 .central {
+    text-align: center;
+}
 
+.cardContain {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .card {
-
+    margin-bottom:50px;
 }
 
 .imgCard {
-
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
 }
 
 .textImg {
-
+    width:200px;
+    text-align: center;
 }
 
 .bottom {
