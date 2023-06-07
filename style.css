@@ -14,24 +14,47 @@ h2 {
 
 }
 
-.header {
-
+a {
+    color:white;
+    text-decoration: none;
 }
 
-.logo {
+.header {
+    background-color:#1f2973;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 0;
+}
 
+.logo > img {
+    height:50px;
+    margin-left: 70px;
 }
 
 .menu {
-
+    display: flex;
+    justify-content: flex-end;
 }
 
 .topMenu {
-
+    display: flex;
+    justify-content: space-around;
+    gap:25px;
+    font-weight: bold;
+    margin-right:70px;
 }
 
-.topMenu > li {
+.menu > li {
+    
+}
 
+.menu > ul {
+    list-style-type: none;
 }
 
 .top {
@@ -95,5 +118,5 @@ h2 {
 }
 
 .copyright {
-    
+
 }
